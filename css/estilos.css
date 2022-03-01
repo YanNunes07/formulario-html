@@ -1,0 +1,117 @@
+@charset "UTF-8";
+@author "Yan Nunes";
+
+
+
+.geral {
+    width: 100%;
+    background-color: rgb(211, 191, 166);
+    
+}
+
+
+h1, h2, h3{
+    font-family: 'Lobster', cursive;
+    color: rgb(163, 162, 162);
+    
+}
+
+.topo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+    height:15em;
+    background-color:#000000;
+    color: white;
+}
+
+.navigation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    list-style: none;
+    margin: 0; 
+    background: #574740;
+}
+
+.navigation a {
+    text-decoration: none;
+    display: block;
+    padding: 1.5em;
+    font-size: 1.222em;
+    color: rgb(0, 0, 0);
+    font-family: 'Lobster', cursive;
+}
+  
+.navigation a:hover {
+    background: #396e67;
+}
+
+.container{
+    width: 100%;
+    height: 54%;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.conteudo {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 48%;
+    margin: 4%;
+    padding: 2%;
+    border-radius: 10px;
+    background-color:#ffffff;
+}
+
+.conteudo label {
+    display: flex;
+    margin: 1em;
+    font-size: 1.2em;
+   
+}
+
+.conteudo input {
+    margin-left: 1em;
+    border-radius: 5%;
+    ;
+}
+.conteudo button {
+    margin-left: 1em;
+    
+}
+
+
+
+.actionButtons {
+    cursor: pointer;
+}
+
+.actionButtons:hover{
+    color: #ff0000;
+    border: solid 2px  #f50808c2 ;
+}
+
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 4.5em;
+    background: chartreuse;
+}
+
+.rodape p{
+    font-size: 1.5em;
+    font-family: 'Lobster', cursive;
+}
+
+fieldset {
+    border: 6px #c5c0c0 solid;
+    border-radius: 10px;
+}
